@@ -29,6 +29,7 @@ const EditPosts = () => {
                 .single();
             if (data) {
                 setOriginalPosts(data);
+                setPosts(data);
             }
         };
 
