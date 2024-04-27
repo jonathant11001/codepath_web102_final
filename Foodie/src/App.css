@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.Home-Img{
+  width: 25%;
+  height: 25%;
+}
+
+nav {
+  position: fixed; 
+  top: 0; 
+  right: 0;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}

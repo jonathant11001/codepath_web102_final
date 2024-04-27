@@ -1,0 +1,7 @@
+.Homepage_title{
+    text-align: center;
+    font-size: 100px;
+    background: linear-gradient(45deg, #FFA500, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

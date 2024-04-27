@@ -1,0 +1,41 @@
+.likeSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes{
+    display: inline-flex;
+    align-items: center;
+}
+
+.likeButton {
+    color: black;
+    transition: color 0.3s;
+}
+
+.likeButton:hover {
+    color: red;
+}
+
+.commentsSection {
+    grid-column: 1 / 3;
+    font-weight: bold;
+}
+
+.commentsBar{
+    width: 97.5%;
+}
+
+.editButton {
+    margin-left: auto;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.editButton:hover {
+    background-color: red;
+    color: white;
+}
