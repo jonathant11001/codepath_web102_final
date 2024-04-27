@@ -7,7 +7,8 @@ function CreateAPost() {
         author: "",
         image: "",
         ingredients: [],
-        steps: []
+        steps: [],
+        comments: []
     });
 
     const formatIngredients = (ingredientsString) => {
@@ -31,7 +32,8 @@ function CreateAPost() {
                 author: Posts.author,
                 image: Posts.image,
                 ingredients: formattedIngredients,
-                steps: formattedSteps
+                steps: formattedSteps,
+                comments: Posts.comments
             })
             .select();
         alert("Post '" + Posts.title + "' is all set");
