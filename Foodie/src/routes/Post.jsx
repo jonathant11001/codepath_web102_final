@@ -75,6 +75,18 @@ const Post = () => {
     );
   }
 
+  function StepMaker({ list }) {
+    return (
+      <div className="in_div">
+        <ul>
+          {list.map((item, index) => (
+            <li key={index}>{index+1}. {item}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+
   function DateDisplay({ date }) {
     const formattedDate = new Date(date).toLocaleDateString('en-US');
   
@@ -94,6 +106,9 @@ const Post = () => {
       <div className="side">
         <div className="ingredients"> 
           <ListMaker list={post.ingredients}/>
+        </div>
+        <div className="ingredients"> 
+          <StepMaker list={post.steps}/>
         </div>
         <div className="likeSection">
           <div className="likes">
